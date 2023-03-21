@@ -1,0 +1,33 @@
+.at-park {
+  background-color: rgba(128, 128, 128, 0.351);
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.here {
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50pt;
+  font-weight: 900;
+  text-shadow: 5px 0px rgb(255, 128, 128);
+}
+
+.tell-friends {
+  color: aliceblue;
+  font-family: 'Delicious Handrawn';
+  background-color: rgba(78, 78, 78, 0.466);
+  border: none;
+  font-size: 30pt;
+  padding: 3% 5% 4%;
+  border-radius: 50px;
+}
+
+.tell-friends:hover {
+  cursor: pointer;
+  background-color: rgba(43, 43, 43, 0.466);
+}

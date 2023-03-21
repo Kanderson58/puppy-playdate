@@ -1,0 +1,59 @@
+nav {
+  display: flex;
+  height: 5%;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-bottom: 10px rgb(255, 128, 128) solid;
+  font-size: 15pt;
+  padding: 0 2%;
+}
+
+h1 {
+  display: flex;
+  width: 40%;
+}
+
+button:not(.tell-friends, .last) {
+  border: none;
+  font-family: 'Delicious Handrawn';
+  font-size: 20pt;
+  border: 2px black solid;
+  border-bottom: none;
+  border-right: none;
+  width: 225px;
+  height: 50px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+button:not(.tell-friends):hover {
+  background-color: rgba(255, 128, 128, 0.324);
+  border-bottom: 8px solid rgb(89, 43, 43);
+}
+
+.last {
+  border: none;
+  font-family: 'Delicious Handrawn';
+  font-size: 20pt;
+  border: 2px black solid;
+  border-bottom: none;
+  width: 225px;
+  height: 50px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.material-symbols-outlined {
+  margin-right: 5%;
+}
+
+.tm {
+  font-size: 12pt;
+  padding-left: 1%;
+  color: gray;
+}
